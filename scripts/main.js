@@ -70,7 +70,7 @@ function addKeyPressHandler(thumbnails) {
         if (event.keyCode === ESC_KEY) {
             hideDetails();
         }
-        if (event.keyCode >= 49 && event.keyCode <= 53) {
+        if (event.keyCode >= 49 && event.keyCode <= 57) {
             setDetailsFromThumb(thumbnails[event.keyCode % 49]);
             showDetails();
         }
